@@ -1,0 +1,211 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+vDSP_module
+Z2 !s110 1724788609
+!i10b 1
+!s100 IgkOUbh;5WI]zMnmOF;?P0
+I^jacZ0:Z8VPkf>iXi]?ln2
+Z3 dD:/Digital Design/KW Course/DSP_project
+w1724788434
+8DSP_module.v
+FDSP_module.v
+!i122 192
+L0 3 163
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1724788608.000000
+Z7 !s107 DSP_tb.v|DSP_module.v|reg_mux.v|
+Z8 !s90 -reportprogress|300|reg_mux.v|DSP_module.v|DSP_tb.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+n@d@s@p_module
+vDSP_tb
+R2
+!i10b 1
+!s100 iQhV>]E4ozcL3`l=0]6UP2
+IG?PQ]ZIKQQzPJNYM2i^D82
+R3
+w1724788582
+8DSP_tb.v
+FDSP_tb.v
+!i122 192
+L0 2 117
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@d@s@p_tb
+vreg_mux
+R2
+!i10b 1
+!s100 FanE2:H]05Plaj]<SY5<:0
+ISIz3TDdUIBFn2:KSA5>oH0
+R3
+w1724788186
+8reg_mux.v
+Freg_mux.v
+!i122 192
+L0 3 45
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10

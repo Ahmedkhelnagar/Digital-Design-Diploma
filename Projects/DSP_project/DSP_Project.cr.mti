@@ -1,0 +1,15 @@
+{D:/Digital Design/KW Course/DSP_project/reg_mux.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/KW Course/DSP_project/reg_mux.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module reg_mux
+
+Top level modules:
+	reg_mux
+
+} {} {}} {D:/Digital Design/KW Course/DSP_project/DSP_module.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/KW Course/DSP_project/DSP_module.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DSP_module
+
+Top level modules:
+	DSP_module
+
+} {} {}}

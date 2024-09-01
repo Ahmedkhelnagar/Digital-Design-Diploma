@@ -1,0 +1,120 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital Design/Course/SPI_Project
+T_opt
+!s110 1723899548
+V[@de]HGMKL6VH<X_AgnXf1
+04 10 4 work Wrapper_tb fast 0
+=1-e454e84764da-66c09e98-232-3670
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vram
+Z3 !s110 1723899540
+!i10b 1
+!s100 lakii4:@o810YBL^6;c:C0
+I<1KX962d^dQ;H`;OmcB=G2
+Z4 dD:/Digital Design/Course/Final_SPI_project
+w1723579519
+8RAM_module.v
+FRAM_module.v
+!i122 18
+L0 3 35
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1723899540.000000
+Z8 !s107 SPI_FSM_module.v|RAM_module.v|Wrapper_module.v|
+Z9 !s90 -reportprogress|300|Wrapper_module.v|RAM_module.v|SPI_FSM_module.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vSPI_FSM_module
+R3
+!i10b 1
+!s100 oFXM@48CVUUZFQ4j]4BeW0
+IEhe53RYJ<fM>2C7=[KNL33
+R4
+w1723899507
+8SPI_FSM_module.v
+FSPI_FSM_module.v
+!i122 18
+L0 3 129
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@s@p@i_@f@s@m_module
+vWrapper_module
+R3
+!i10b 1
+!s100 EK>;8YXGiAUMB`Oi6gf:f3
+IQCl=F2`VVgc6>GF4[N:Ng1
+R4
+w1723579533
+8Wrapper_module.v
+FWrapper_module.v
+!i122 18
+L0 3 16
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@wrapper_module
+vWrapper_tb
+!s110 1723901910
+!i10b 1
+!s100 kIJXl8_4I7P0TdCL[VDa11
+ICV7LC:3gQId37d]6W;m9m0
+R4
+w1723900818
+8D:/Digital Design/Course/Final_SPI_project/Wrapper_tb.v
+FD:/Digital Design/Course/Final_SPI_project/Wrapper_tb.v
+!i122 19
+L0 1 153
+R5
+R6
+r1
+!s85 0
+31
+!s108 1723901910.000000
+!s107 D:/Digital Design/Course/Final_SPI_project/Wrapper_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/Final_SPI_project/Wrapper_tb.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@wrapper_tb

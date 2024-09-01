@@ -1,0 +1,22 @@
+{D:/Digital Design/Course/Final_SPI_project/SPI_FSM_module.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/Final_SPI_project/SPI_FSM_module.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_FSM_module
+
+Top level modules:
+	SPI_FSM_module
+
+} {} {}} {D:/Digital Design/Course/Final_SPI_project/Wrapper_module.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/Final_SPI_project/Wrapper_module.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Wrapper_module
+
+Top level modules:
+	Wrapper_module
+
+} {} {}} {D:/Digital Design/Course/Final_SPI_project/RAM_module.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/Final_SPI_project/RAM_module.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}
