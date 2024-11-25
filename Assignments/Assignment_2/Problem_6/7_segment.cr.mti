@@ -1,0 +1,36 @@
+{D:/Digital Design/Course/session2/Assignment_2/Problem_6/7_segment.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_6/7_segment.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Seven_Segment_encoder
+
+Top level modules:
+	Seven_Segment_encoder
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2/Problem_5/prob_5.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_5/prob_5.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module N_bit_ALU
+
+Top level modules:
+	N_bit_ALU
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2/Problem_6/Module_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_6/Module_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Module_tb
+
+Top level modules:
+	Module_tb
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2/Problem_6/Prob_6.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_6/Prob_6.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module big_Module
+
+Top level modules:
+	big_Module
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2/Problem_4/prob_4.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_4/prob_4.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module N_bit_adder
+
+Top level modules:
+	N_bit_adder
+
+} {} {}}

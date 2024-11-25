@@ -1,0 +1,8 @@
+{D:/Digital Design/Course/session1/Assignment_1/problem 3/prob_3.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session1/Assignment_1/problem 3/prob_3.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module decoder_2to4
+
+Top level modules:
+	decoder_2to4
+
+} {} {}}

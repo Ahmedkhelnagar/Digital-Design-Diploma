@@ -1,0 +1,15 @@
+{D:/Digital Design/Course/session2/Assignment_2/Problem_1/prob_1.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_1/prob_1.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module MUX1
+
+Top level modules:
+	MUX1
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module MUX1_tb
+
+Top level modules:
+	MUX1_tb
+
+} {} {}}

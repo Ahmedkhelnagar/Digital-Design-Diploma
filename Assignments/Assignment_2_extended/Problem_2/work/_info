@@ -1,0 +1,95 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital Design/Course/session2/Assignment_2_extended/Problem_1
+T_opt
+!s110 1720658604
+V:OIoT:F=EKc<M?@nl7^ze0
+04 7 4 work Dmux_tb fast 0
+=1-e454e84764da-668f2aab-36d-4394
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vDmux
+!s110 1720658389
+!i10b 1
+!s100 ^3DCg8DefY[15RXczD8gY3
+IWc1@oQMT<hRZolUORLAb^1
+Z3 dD:/Digital Design/Course/session2/Assignment_2_extended/Problem_2
+w1720657480
+8D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v
+FD:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v
+!i122 3
+L0 3 16
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1720658389.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@dmux
+vDmux_tb
+!s110 1720658598
+!i10b 1
+!s100 :EzU86fDlC^jF0`97MAMz3
+IoX1ShlQMf9?aI0h6U9QZ=0
+R3
+w1720658588
+8D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v
+FD:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v
+!i122 5
+L0 3 40
+R4
+R5
+r1
+!s85 0
+31
+!s108 1720658597.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v|
+!i113 0
+R6
+R2
+n@dmux_tb
+vMUX1_tb
+!s110 1720733698
+!i10b 1
+!s100 `alUk=nJ[e]:EhD]WiPGD2
+Im2Bb]nK`@bDg0<;F<3Uhj3
+R3
+w1720733690
+8D:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v
+FD:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v
+!i122 7
+L0 3 45
+R4
+R5
+r1
+!s85 0
+31
+!s108 1720733698.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2/Problem_1/MUX1_tb.v|
+!i113 0
+R6
+R2
+n@m@u@x1_tb

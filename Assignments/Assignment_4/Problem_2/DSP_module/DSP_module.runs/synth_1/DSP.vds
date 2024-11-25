@@ -1,0 +1,530 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jul 26 00:18:42 2024
+# Process ID: 18932
+# Current directory: D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP_module/DSP_module.runs/synth_1
+# Command line: vivado.exe -log DSP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DSP.tcl
+# Log file: D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP_module/DSP_module.runs/synth_1/DSP.vds
+# Journal file: D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP_module/DSP_module.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DSP.tcl -notrace
+Command: synth_design -top DSP -part xc7a200tffg1156-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2840 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 355.547 ; gain = 98.457
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DSP' [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:3]
+	Parameter OPERATION bound to: ADD - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'DSP' (1#1) [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 409.555 ; gain = 152.465
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 409.555 ; gain = 152.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 409.555 ; gain = 152.465
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tffg1156-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Digital Design/Course/session4/Assignment_4/Problem_2/Constraints_basys3.xdc]
+Finished Parsing XDC File [D:/Digital Design/Course/session4/Assignment_4/Problem_2/Constraints_basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Digital Design/Course/session4/Assignment_4/Problem_2/Constraints_basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DSP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DSP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.439 . Memory (MB): peak = 825.836 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:01:39 . Memory (MB): peak = 825.836 ; gain = 568.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tffg1156-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:01:39 . Memory (MB): peak = 825.836 ; gain = 568.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:01:40 . Memory (MB): peak = 825.836 ; gain = 568.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:01:44 . Memory (MB): peak = 825.836 ; gain = 568.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     37 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 4     
+	               37 Bit    Registers := 2     
+	               36 Bit    Registers := 2     
+	               18 Bit    Registers := 4     
++---Multipliers : 
+	                18x36  Multipliers := 1     
++---Muxes : 
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DSP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     37 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 4     
+	               37 Bit    Registers := 2     
+	               36 Bit    Registers := 2     
+	               18 Bit    Registers := 4     
++---Multipliers : 
+	                18x36  Multipliers := 1     
++---Muxes : 
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:68]
+WARNING: [Synth 8-6014] Unused sequential element multipler_output_reg was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element multipler_output_reg_reg was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:75]
+WARNING: [Synth 8-6014] Unused sequential element multipler_output_reg was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element multipler_output_reg was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP.v:65]
+DSP Report: Generating DSP multipler_output_reg, operation Mode is: (A''*B2)'.
+DSP Report: register B is absorbed into DSP multipler_output_reg.
+DSP Report: register A is absorbed into DSP multipler_output_reg.
+DSP Report: register A is absorbed into DSP multipler_output_reg.
+DSP Report: register multipler_output_reg is absorbed into DSP multipler_output_reg.
+DSP Report: operator multipler_output0 is absorbed into DSP multipler_output_reg.
+DSP Report: operator multipler_output0 is absorbed into DSP multipler_output_reg.
+DSP Report: Generating DSP multipler_output0, operation Mode is: (PCIN>>17)+(A2*B'')'.
+DSP Report: register B is absorbed into DSP multipler_output0.
+DSP Report: register B is absorbed into DSP multipler_output0.
+DSP Report: register A is absorbed into DSP multipler_output0.
+DSP Report: register multipler_output_reg is absorbed into DSP multipler_output0.
+DSP Report: operator multipler_output0 is absorbed into DSP multipler_output0.
+DSP Report: operator multipler_output0 is absorbed into DSP multipler_output0.
+WARNING: [Synth 8-3917] design DSP has port P[47] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[46] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[45] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[44] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[43] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[42] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[41] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[40] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[39] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[38] driven by constant 0
+WARNING: [Synth 8-3917] design DSP has port P[37] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[17]' (FDR) to 'i_37'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[18]' (FDR) to 'i_36'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[0]' (FDR) to 'i_17'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[1]' (FDR) to 'i_16'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[2]' (FDR) to 'i_15'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[3]' (FDR) to 'i_14'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[4]' (FDR) to 'i_13'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[5]' (FDR) to 'i_12'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[6]' (FDR) to 'i_11'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[7]' (FDR) to 'i_10'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[8]' (FDR) to 'i_9'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[9]' (FDR) to 'i_8'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[10]' (FDR) to 'i_7'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[11]' (FDR) to 'i_6'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[12]' (FDR) to 'i_5'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[13]' (FDR) to 'i_4'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[14]' (FDR) to 'i_3'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[15]' (FDR) to 'i_2'
+INFO: [Synth 8-3886] merging instance 'Adder_output_reg[16]' (FDR) to 'i_1'
+INFO: [Synth 8-3886] merging instance 'i_0' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[47]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[46]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[45]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[44]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[43]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[42]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[41]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[40]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[39]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[38]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[37]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[36]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[35]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[34]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[33]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[32]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[31]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[30]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[29]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[28]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[27]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[26]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[25]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[24]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[23]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[22]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[21]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[20]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[19]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[18]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[17]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[16]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[15]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[14]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[13]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[12]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[11]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[10]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[9]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[8]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[7]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[6]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[5]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[4]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'multipler_output_reg[3]' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_35' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_34' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_33' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_32' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_31' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_30' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_29' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_28' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_27' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_26' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_25' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_24' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_23' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_22' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_21' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_20' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_19' (FDR) to 'i_18'
+INFO: [Synth 8-3886] merging instance 'i_18' (FDR) to 'multipler_output_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\multipler_output_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[47]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[46]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[45]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[44]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[43]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[42]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[41]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[40]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[39]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[38]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (C_reg_reg[37]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[47]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[46]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[45]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[44]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[43]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[42]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[41]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[40]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[39]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[38]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[37]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[36]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[35]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[34]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[33]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[32]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[31]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[30]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[29]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[28]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[27]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[26]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[25]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[24]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[23]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[22]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[21]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[20]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[19]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[18]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[17]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[47]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[46]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[45]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[44]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[43]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[42]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[41]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[40]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[39]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[38]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[37]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[36]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[35]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[34]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[33]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[32]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[31]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[30]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[29]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[28]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[27]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[26]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[25]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[24]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[23]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[22]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[21]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[20]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[19]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[18]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (multipler_output_reg_reg[17]__0) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[16]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[15]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[14]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[13]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[12]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[11]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[10]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[9]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[8]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[7]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[6]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[5]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[4]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[3]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[2]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[1]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (Adder_output_reg_reg[0]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[16]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[15]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[14]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[13]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[12]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[11]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[10]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[9]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[8]) is unused and will be removed from module DSP.
+WARNING: [Synth 8-3332] Sequential element (A_reg_reg[7]) is unused and will be removed from module DSP.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:01:55 . Memory (MB): peak = 825.836 ; gain = 568.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping          | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|DSP         | (A''*B2)'            | 19     | 18     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 1    | 0    | 
+|DSP         | (PCIN>>17)+(A2*B'')' | 20     | 18     | -      | -      | 48     | 1    | 2    | -    | -    | -     | 1    | 0    | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:02:13 . Memory (MB): peak = 856.270 ; gain = 599.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:02:15 . Memory (MB): peak = 857.605 ; gain = 600.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:02:16 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:02:17 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:02:18 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:02:18 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:02:18 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:02:18 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:02:18 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    16|
+|3     |DSP48E1_1 |     1|
+|4     |DSP48E1_2 |     1|
+|5     |LUT1      |     1|
+|6     |LUT2      |    59|
+|7     |FDRE      |   246|
+|8     |IBUF      |    93|
+|9     |OBUF      |    48|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   466|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:02:19 . Memory (MB): peak = 867.762 ; gain = 610.672
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 191 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:01:02 . Memory (MB): peak = 867.762 ; gain = 194.391
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:02:20 . Memory (MB): peak = 867.762 ; gain = 610.672
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 111 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+100 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:02:27 . Memory (MB): peak = 867.762 ; gain = 623.496
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/Digital Design/Course/session4/Assignment_4/Problem_2/DSP_module/DSP_module.runs/synth_1/DSP.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 867.762 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file DSP_utilization_synth.rpt -pb DSP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 867.762 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 26 00:22:03 2024...

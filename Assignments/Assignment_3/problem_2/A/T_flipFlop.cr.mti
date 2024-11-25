@@ -1,0 +1,15 @@
+{D:/Digital Design/Course/session3/Assignment_3/problem_2/A/T_toggle.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/problem_2/A/T_toggle.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module T_FlipFlop
+
+Top level modules:
+	T_FlipFlop
+
+} {} {}} {D:/Digital Design/Course/session3/Assignment_3/problem_2/A/T_toggle_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/problem_2/A/T_toggle_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module T_FlipFlop_tb
+
+Top level modules:
+	T_FlipFlop_tb
+
+} {} {}}

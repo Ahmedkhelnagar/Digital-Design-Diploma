@@ -1,0 +1,15 @@
+{D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Dmux
+
+Top level modules:
+	Dmux
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_2/Dmux_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Dmux_tb
+
+Top level modules:
+	Dmux_tb
+
+} {} {}}

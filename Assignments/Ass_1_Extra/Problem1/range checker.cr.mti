@@ -1,0 +1,8 @@
+{D:/Digital Design/Course/session1/Ass_1_Extra/Problem1/prob_1.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session1/Ass_1_Extra/Problem1/prob_1.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module binary_number4bit
+
+Top level modules:
+	binary_number4bit
+
+} {} {}}

@@ -1,0 +1,84 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital Design/Course/session2/Assignment_2/problem_2
+T_opt
+!s110 1720380998
+V@^EO5I0BYgCRN=SE4:1=d2
+Z2 04 6 4 work BCD_tb fast 0
+=1-e454e84764da-668aee44-14c-47c
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1720428826
+V`f0k7Q>dg7IW1Hj79S?;<0
+R2
+=1-e454e84764da-668ba916-52-ed4
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vBCD
+!s110 1720380469
+!i10b 1
+!s100 JlAo6mImlYnOaA]6>?8UA0
+Ioz=P?HAb:K8Bil>380a1J2
+Z6 dD:/Digital Design/Course/session2/Assignment_2/Problem_3
+w1720380460
+8D:/Digital Design/Course/session2/Assignment_2/Problem_3/prob_3.v
+FD:/Digital Design/Course/session2/Assignment_2/Problem_3/prob_3.v
+!i122 0
+L0 3 29
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1720380469.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2/Problem_3/prob_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2/Problem_3/prob_3.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@b@c@d
+vBCD_tb
+!s110 1720428703
+!i10b 1
+!s100 aDMBD]eKmn0ARbhJHE6I82
+II]RHF8=ho]jdCZQz=O?T51
+R6
+w1720428653
+8D:/Digital Design/Course/session2/Assignment_2/Problem_3/BCD_tb.v
+FD:/Digital Design/Course/session2/Assignment_2/Problem_3/BCD_tb.v
+!i122 5
+L0 3 82
+R7
+R8
+r1
+!s85 0
+31
+!s108 1720428702.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2/Problem_3/BCD_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2/Problem_3/BCD_tb.v|
+!i113 0
+R9
+R4
+n@b@c@d_tb

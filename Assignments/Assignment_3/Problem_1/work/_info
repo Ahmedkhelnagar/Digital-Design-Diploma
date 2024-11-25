@@ -1,0 +1,114 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1721150272
+V3IG^naA3]YjT9;8Q83:Q>2
+04 13 4 work Data_latch_tb fast 0
+=1-e454e84764da-6696ab40-216-3bd4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vData_latch
+Z2 !s110 1721150260
+!i10b 1
+!s100 3264]OK0;5GRd[^N0b_d[2
+IOZK94[?Od2hH4eM<D@BRo0
+Z3 dD:/Digital Design/Course/session3/Assignment_3/Problem_1
+w1721149938
+8Data_latch.v
+FData_latch.v
+!i122 9
+Z4 L0 3 13
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1721150260.000000
+Z8 !s107 Data_latch_tb.v|Data_latch.v|
+Z9 !s90 -reportprogress|300|Data_latch.v|Data_latch_tb.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@data_latch
+vData_latch_tb
+R2
+!i10b 1
+!s100 9c7>f7NokWR39^Q8ggB;n1
+I=?zg58zYlRiaEQ=;OhP[X1
+R3
+w1721150255
+8Data_latch_tb.v
+FData_latch_tb.v
+!i122 9
+L0 3 42
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@data_latch_tb
+vlatch
+Z11 !s110 1721149458
+!i10b 1
+!s100 lia4_kEMXL[4::BMN;?MN0
+I3i3AjjC?edC_VlRiMXiHJ0
+R3
+w1721149420
+8D:/Digital Design/Course/session3/Assignment_3/Problem_1/prob_1.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_1/prob_1.v
+!i122 5
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z12 !s108 1721149458.000000
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_1/prob_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_1/prob_1.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vlatch_tb
+R11
+!i10b 1
+!s100 4e0NPJ5D<<1M5EbXYk4hL2
+Ig]]eEjkj:Vm`dk:EnMo:`3
+R3
+w1721149447
+8D:/Digital Design/Course/session3/Assignment_3/Problem_1/latch_tb.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_1/latch_tb.v
+!i122 4
+L0 3 36
+R5
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_1/latch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_1/latch_tb.v|
+!i113 0
+R13
+R1

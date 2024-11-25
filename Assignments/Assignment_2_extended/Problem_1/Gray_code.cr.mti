@@ -1,0 +1,22 @@
+{D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/gray_code_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/gray_code_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module gray_code_tb
+
+Top level modules:
+	gray_code_tb
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/prob_1.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/prob_1.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Encoding_module
+
+Top level modules:
+	Encoding_module
+
+} {} {}} {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/One_hot_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session2/Assignment_2_extended/Problem_1/One_hot_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module one_hot_tb
+
+Top level modules:
+	one_hot_tb
+
+} {} {}}

@@ -1,0 +1,8 @@
+{D:/Digital Design/Course/session1/Assignment_1/Problem 2/prob_2.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session1/Assignment_1/Problem 2/prob_2.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fourBit_adder
+
+Top level modules:
+	fourBit_adder
+
+} {} {}}

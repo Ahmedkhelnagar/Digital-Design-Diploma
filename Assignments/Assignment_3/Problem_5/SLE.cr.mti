@@ -1,0 +1,15 @@
+{D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLE
+
+Top level modules:
+	SLE
+
+} {} {}} {D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLE_tb
+
+Top level modules:
+	SLE_tb
+
+} {} {}}

@@ -1,0 +1,120 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital Design/Course/session3/Assignment_3/Problem_4
+T_opt
+!s110 1721303832
+VS:8JXLUl`?[8R26@dhgKH0
+04 6 4 work SLE_tb fast 0
+=1-e454e84764da-66990318-24b-56e8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vripple_counter
+!s110 1721304371
+!i10b 1
+!s100 _aa4`RGcfIm1EJ:21f6g02
+IbhELe_fLcM9n^:9PDTY5=1
+Z3 dD:/Digital Design/Course/session3/Assignment_3/Problem_5
+w1721304271
+8D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v
+!i122 10
+L0 3 18
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1721304371.000000
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vripple_counter_tb
+!s110 1721304375
+!i10b 1
+!s100 QzD06BPU3;IlCR_nN`5nH2
+Idc=aazkzl=iSnzXiX>C]O3
+R3
+w1721214126
+8D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v
+!i122 11
+L0 3 28
+R4
+R5
+r1
+!s85 0
+31
+!s108 1721304375.000000
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v|
+!i113 0
+R6
+R2
+vSLE
+!s110 1721303496
+!i10b 1
+!s100 5b[K1cYzk1_S^4oAGm^ZS2
+IM?^2LWCeSe>=nYbE=3XhV2
+R3
+w1721303473
+8D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v
+!i122 8
+L0 3 46
+R4
+R5
+r1
+!s85 0
+31
+!s108 1721303496.000000
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE.v|
+!i113 0
+R6
+R2
+n@s@l@e
+vSLE_tb
+!s110 1721303823
+!i10b 1
+!s100 2ehO[7S=ihD]3jAido?cN0
+I?E0_hlIeDh`B7REC?H@ag0
+R3
+w1721303804
+8D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v
+FD:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v
+!i122 9
+L0 3 42
+R4
+R5
+r1
+!s85 0
+31
+!s108 1721303823.000000
+!s107 D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session3/Assignment_3/Problem_5/SLE_tb.v|
+!i113 0
+R6
+R2
+n@s@l@e_tb

@@ -1,0 +1,152 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Digital Design/Course/session4/labs
+T_opt
+!s110 1721917858
+VPWRB3X5hSXNRN>`hN];Ta2
+04 7 4 work ALSU_tb fast 0
+=1-e454e84764da-66a261a1-353-17f4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vALSU
+Z2 !s110 1721917853
+!i10b 1
+!s100 EPJcD:g26kKS7IG]U?:OU1
+IZ?6`o9g?RP18BdN>9N@z13
+Z3 dD:/Digital Design/Course/session4/Assignment_4/Problem_1
+w1721888525
+8ALSU.v
+FALSU.v
+!i122 87
+L0 3 140
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1721917853.000000
+Z7 !s107 ALSU_tb.v|ALSU.v|
+Z8 !s90 -reportprogress|300|ALSU.v|ALSU_tb.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@s@u
+vALSU_tb
+R2
+!i10b 1
+!s100 4aW9M10d6T^Qe@d36D78Y2
+I:HEnjkD9U5Bh]9jSG]k_33
+R3
+w1721917852
+8ALSU_tb.v
+FALSU_tb.v
+!i122 87
+L0 3 263
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@a@l@s@u_tb

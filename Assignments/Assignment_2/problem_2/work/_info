@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Digital Design/Course/session2/Assignment_2/Problem_1
+T_opt
+!s110 1720375073
+V_@@zT>3bdUUE836U5QEO31
+04 10 4 work encoder_tb fast 0
+=1-e454e84764da-668ad71f-85-4448
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vencoder_tb
+!s110 1720375049
+!i10b 1
+!s100 b]hKd@l1RU1`<Il:of1LJ2
+I@o6k@RcQzR^3dJ`A9]h6^3
+Z1 dD:/Digital Design/Course/session2/Assignment_2/problem_2
+w1720375041
+8D:/Digital Design/Course/session2/Assignment_2/problem_2/encoder_tb.v
+FD:/Digital Design/Course/session2/Assignment_2/problem_2/encoder_tb.v
+!i122 1
+L0 3 36
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1720375049.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2/problem_2/encoder_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2/problem_2/encoder_tb.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfour_bit_priority_encoder
+!s110 1720374908
+!i10b 1
+!s100 Q<m<]@;0ZLmU`kzamdg5_0
+ImFHjRQY?KP5aB^C[TAK9G1
+R1
+w1720372384
+8D:/Digital Design/Course/session2/Assignment_2/problem_2/prob_2.v
+FD:/Digital Design/Course/session2/Assignment_2/problem_2/prob_2.v
+!i122 0
+L0 3 18
+R2
+R3
+r1
+!s85 0
+31
+!s108 1720374908.000000
+!s107 D:/Digital Design/Course/session2/Assignment_2/problem_2/prob_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session2/Assignment_2/problem_2/prob_2.v|
+!i113 0
+R4
+R0

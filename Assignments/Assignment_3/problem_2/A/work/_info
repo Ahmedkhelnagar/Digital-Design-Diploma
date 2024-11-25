@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Digital Design/Course/session3/Assignment_3/Problem_1
+T_opt
+!s110 1721155242
+VDgRU65kmloY0>z0zX4Kn81
+04 13 4 work T_FlipFlop_tb fast 0
+=1-e454e84764da-6696bea8-240-2970
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vT_FlipFlop
+Z1 !s110 1721155237
+!i10b 1
+!s100 lUdZ>d]5a:0OOTTG[7MM]1
+I=iI8_SRX9E?@8H`^5cGga3
+Z2 dD:/Digital Design/Course/session3/Assignment_3/problem_2/A
+w1721153515
+8T_FlipFlop.v
+FT_FlipFlop.v
+!i122 3
+L0 3 14
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z5 !s108 1721155237.000000
+Z6 !s107 T_FlipFlop_tb.v|T_FlipFlop.v|
+Z7 !s90 -reportprogress|300|T_FlipFlop.v|T_FlipFlop_tb.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@t_@flip@flop
+vT_FlipFlop_tb
+R1
+!i10b 1
+!s100 MdJ7:_dSQ?_Mh6l0fm9HZ1
+IS0Ob6HVHb[lo`QAk25Fa^1
+R2
+w1721155054
+8T_FlipFlop_tb.v
+FT_FlipFlop_tb.v
+!i122 3
+L0 3 33
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R0
+n@t_@flip@flop_tb

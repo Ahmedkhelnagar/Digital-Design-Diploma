@@ -1,0 +1,8 @@
+{D:/Digital Design/Course/session1/Assignment_1/problem 1/prob1.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session1/Assignment_1/problem 1/prob1.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Mux1
+
+Top level modules:
+	Mux1
+
+} {} {}}

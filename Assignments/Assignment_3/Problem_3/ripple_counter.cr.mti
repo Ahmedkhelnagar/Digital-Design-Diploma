@@ -1,0 +1,22 @@
+{D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ripple_counter
+
+Top level modules:
+	ripple_counter
+
+} {} {}} {D:/Digital Design/Course/session3/Assignment_3/problem_2/B/D_FlipFlop.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/problem_2/B/D_FlipFlop.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module D_FlipFlop
+
+Top level modules:
+	D_FlipFlop
+
+} {} {}} {D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Design/Course/session3/Assignment_3/Problem_3/ripple_counter_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ripple_counter_tb
+
+Top level modules:
+	ripple_counter_tb
+
+} {} {}}

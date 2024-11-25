@@ -1,0 +1,44 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Digital Design/Course/session1/Ass_1_Extra/problem 3
+T_opt
+!s110 1719868374
+Ve=bIBoO1KQ?^XJb85mL>a3
+04 9 4 work prime_out fast 0
+=1-e454e84764da-66831bd5-261-4dd8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vprime_out
+!s110 1719868354
+!i10b 1
+!s100 OS`j0Pg4lZPhPHZmkK08^1
+IXC;cgSPIEFHCK3YOJ7j1S1
+dD:/Digital Design/Course/session1/Ass_1_Extra/problem4
+w1719868330
+8D:/Digital Design/Course/session1/Ass_1_Extra/problem4/prob_4.v
+FD:/Digital Design/Course/session1/Ass_1_Extra/problem4/prob_4.v
+!i122 0
+L0 3 20
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1719868354.000000
+!s107 D:/Digital Design/Course/session1/Ass_1_Extra/problem4/prob_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Design/Course/session1/Ass_1_Extra/problem4/prob_4.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
